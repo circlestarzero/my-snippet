@@ -3330,3 +3330,11 @@ endsnippet
 snippet  '([A-Za-z])sb' "^{2}" wrA
 `!p snip.rv = match.group(1)`^{${1:2}}$0
 endsnippet
+
+snippet  '([A-Za-z])xb' "_{}" wrA
+`!p snip.rv = match.group(1)`_{$1}$0
+endsnippet
+
+snippet  '([A-Za-z])sx' "_{}" wrA
+`!p snip.rv = match.group(1)`_{$1}^{$2}$0
+endsnippet
