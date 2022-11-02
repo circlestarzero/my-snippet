@@ -3325,3 +3325,8 @@ endsnippet
 snippet sxb "_{}^{}"
 _{$1}^{$2}$0
 endsnippet
+
+
+snippet  '([A-Za-z])sb' "^{2}" wrA
+`!p snip.v = match.group(1)`^{${1:2}}$0
+endsnippet
