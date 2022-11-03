@@ -3341,3 +3341,15 @@ context "math()"
 snippet  '([A-Za-z])sx' "_{}" wrA
 `!p snip.rv = match.group(1)`_{$1}^{$2}$0
 endsnippet
+
+snippet  xkh "\left( \right)" 
+\left( $1 \right) $0
+endsnippet
+
+snippet  zkh "\left[ \right]" 
+\left[ $1 \right] $0
+endsnippet
+
+snippet  dkh "\left{ \right}" 
+\left{ $1 \right} $0
+endsnippet
