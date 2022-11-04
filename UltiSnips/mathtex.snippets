@@ -3333,12 +3333,12 @@ endsnippet
 
 
 context "math()"
-snippet  '([A-Za-z])xb' "_{}" wrA
+snippet  '([A-Za-z\)\]\})xb' "_{}" wrA
 `!p snip.rv = match.group(1)`_{$1}$0
 endsnippet
 
 context "math()"
-snippet  '([A-Za-z])sx' "_{}" wrA
+snippet  '([A-Za-z\)\]\})sx' "_{}" wrA
 `!p snip.rv = match.group(1)`_{$1}^{$2}$0
 endsnippet
 
