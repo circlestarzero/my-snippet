@@ -727,40 +727,40 @@ snippet diff "d/dx" w
 \frac{\mathrm{d}${1:y}}{\mathrm{d}${2:x}} $0
 endsnippet
 
-context "math()"
-snippet sq "\sqrt{}" iA
-\sqrt{${1:${VISUAL}}} $0
-endsnippet
+# context "math()"
+# snippet sq "\sqrt{}" iA
+# \sqrt{${1:${VISUAL}}} $0
+# endsnippet
 
-context "math()"
-snippet sr "^2" iA
-^2
-endsnippet
+# context "math()"
+# snippet sr "^2" iA
+# ^2
+# endsnippet
 
 context "math()"
 snippet "(?<=([\w}\)\]]))tp" "transpose" irA
 ^\top
 endsnippet
 
-context "math()"
-snippet cb "^3" iA
-^3
-endsnippet
+# context "math()"
+# snippet cb "^3" iA
+# ^3
+# endsnippet
 
-context "math()"
-snippet td "to the ... power" iA
-^{$1}$0
-endsnippet
+# context "math()"
+# snippet td "to the ... power" iA
+# ^{$1}$0
+# endsnippet
 
-context "math()"
-snippet tb "to the ... power" iA
-^{($1)}$0
-endsnippet
+# context "math()"
+# snippet tb "to the ... power" iA
+# ^{($1)}$0
+# endsnippet
 
-context "math()"
-snippet rd "to the ... power" iA
-^{($1)}$0
-endsnippet
+# context "math()"
+# snippet rd "to the ... power" iA
+# ^{($1)}$0
+# endsnippet
 
 context "math() and {'works': 0}"
 snippet "^(.*)(\\\w+|(?<![\w\\])\w+)__" "subscript" wrA
@@ -3352,4 +3352,8 @@ endsnippet
 
 snippet  dkh "\left{ \right}" 
 \left{ $1 \right} $0
+endsnippet
+
+snippet comb  "combination" 
+\tbinom{$1}{$2}$0
 endsnippet
