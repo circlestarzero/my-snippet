@@ -3327,18 +3327,18 @@ endsnippet
 
 
 context "math()"
-snippet  '([A-Za-z\)\]\}])sb' "^{2}" wrA
+snippet  '([0-9A-Za-z\)\]\}])sb' "^{2}" wrA
 `!p snip.rv = match.group(1)`^{${1:2}}$0
 endsnippet
 
 
 context "math()"
-snippet  '([A-Za-z\)\]\}])xb' "_{}" wrA
+snippet  '([0-9A-Za-z\)\]\}])xb' "_{}" wrA
 `!p snip.rv = match.group(1)`_{$1}$0
 endsnippet
 
 context "math()"
-snippet  '([A-Za-z\)\]\}])sx' "_{}" wrA
+snippet  '([0-9A-Za-z\)\]\}])sx' "_{}" wrA
 `!p snip.rv = match.group(1)`_{$1}^{$2}$0
 endsnippet
 
